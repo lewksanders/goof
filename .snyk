@@ -1,8 +1,61 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:http-signature:20150122':
     - tap > codecov.io > request > http-signature:
         patched: '2019-11-22T20:52:26.366Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - tap > nyc > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T01:42:51.913Z'
